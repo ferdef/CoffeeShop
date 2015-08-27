@@ -1,0 +1,21 @@
+{
+  "name": "NoRESTModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "CreationDate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

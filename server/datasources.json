@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "CoffeeShopDB": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "CoffeeShopDB",
+    "name": "CoffeeShopDB",
+    "connector": "mongodb"
+  }
+}
